@@ -1,7 +1,6 @@
 # Honkai Star Rail API
 
 A Fan made API for Honkai Star Rail character data with server-side filtering. 
-https://honkai-starrail-api.onrender.com/api/v1/character
 
 ## Installation
 
