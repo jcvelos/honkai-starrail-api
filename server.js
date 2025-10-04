@@ -24,7 +24,7 @@ const characters = [
     "element": "Ice",
     "release": "2023-04-26T00:00:00.000Z",
     "introduction": "A girl who once slumbered in eternal ice and knows nothing about her past. To find out the truth about her origins, she decided to travel with the Astral Express.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/18/Character_March_7th_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c7/Character_March_7th_%28Preservation%29_Splash_Art.png/revision/latest/scale-to-width/360?cb=20230525090156"
   },
   {
     "id": 3,
