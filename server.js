@@ -14,7 +14,7 @@ const characters = [
     "element": "Physical",
     "release": "2023-04-26T00:00:00.000Z",
     "introduction": "A boy/girl who boarded the Astral Express. They chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/cc/Character_Trailblazer_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6f/Character_Trailblazer_%28F%29_Destruction_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20230501005741"
   },
   {
     "id": 2,
@@ -324,7 +324,7 @@ const characters = [
     "element": "Quantum",
     "release": "2023-09-20T00:00:00.000Z",
     "introduction": "Master Diviner of the Xianzhou Luofu. One of the Seven Arbiter-Generals.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/50/Character_Fu_Xuan_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/3e/Character_Fu_Xuan_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20230928224921"
   },
   {
     "id": 33,
@@ -334,7 +334,7 @@ const characters = [
     "element": "Quantum",
     "release": "2023-09-20T00:00:00.000Z",
     "introduction": "Youngest daughter of the Landau family and Gepard and Serval's sister.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/aa/Character_Lynx_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/3c/Character_Lynx_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20230719101506"
   },
   {
     "id": 34,
@@ -344,7 +344,7 @@ const characters = [
     "element": "Fire",
     "release": "2023-10-11T00:00:00.000Z",
     "introduction": "Senior Manager of the Strategic Investment Department in the IPC.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/f8/Character_Topaz_and_Numby_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/9d/Character_Topaz_and_Numby_Splash_Art.png/revision/latest?cb=20231030040101"
   },
   {
     "id": 35,
@@ -354,7 +354,7 @@ const characters = [
     "element": "Fire",
     "release": "2023-10-11T00:00:00.000Z",
     "introduction": "An outworlder who ended up on the Xianzhou Luofu by accident.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/83/Character_Guinaifen_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/33/Character_Guinaifen_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20231030040741"
   },
   {
     "id": 36,
@@ -364,7 +364,7 @@ const characters = [
     "element": "Ice",
     "release": "2023-11-15T00:00:00.000Z",
     "introduction": "The former Sword Champion of the Luofu, and Jing Yuan's master.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/49/Character_Jingliu_Splash_Art.png"
+    "img": "https://hsr.keqingmains.com/wp-content/uploads/2023/10/gacha_Jingliu.webp"
   },
   {
     "id": 37,
@@ -374,7 +374,7 @@ const characters = [
     "element": "Physical",
     "release": "2023-12-06T00:00:00.000Z",
     "introduction": "A Knight of Beauty who roams the cosmos.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d5/Character_Argenti_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/90/Character_Argenti_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20231206232011"
   },
   {
     "id": 38,
@@ -384,7 +384,7 @@ const characters = [
     "element": "Physical",
     "release": "2023-12-06T00:00:00.000Z",
     "introduction": "Judge of the Ten-Lords Commission. Xueyi's sister.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b1/Character_Hanya_Splash_Art.png"
+    "img": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/12/06/5308864/e3b9324aa51f9f45488ec684a9b0f2df_750711481636126279.png?x-oss-process=image%2Fformat%2Cwebp"
   },
   {
     "id": 39,
@@ -394,7 +394,7 @@ const characters = [
     "element": "Wind",
     "release": "2023-11-15T00:00:00.000Z",
     "introduction": "A trainee Ten-Lords Commission Judge with a fear of ghosts.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e4/Character_Huohuo_Splash_Art.png"
+    "img": "https://hsr.keqingmains.com/wp-content/uploads/2023/11/gacha_Huohuo.webp"
   },
   {
     "id": 40,
@@ -404,7 +404,7 @@ const characters = [
     "element": "Ice",
     "release": "2023-12-27T00:00:00.000Z",
     "introduction": "Member 81 of the Genius Society. A scholar of life sciences.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/26/Character_Ruan_Mei_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d5/Character_Ruan_Mei_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20231227021137"
   },
   {
     "id": 41,
@@ -414,7 +414,7 @@ const characters = [
     "element": "Quantum",
     "release": "2023-12-27T00:00:00.000Z",
     "introduction": "A zealous judge of the Ten-Lords Commission.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/cb/Character_Xueyi_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/bc/Character_Xueyi_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20231227045314"
   },
   {
     "id": 42,
@@ -424,7 +424,7 @@ const characters = [
     "element": "Imaginary",
     "release": "2024-01-17T00:00:00.000Z",
     "introduction": "Member of the Intelligentsia Guild. An eccentric scholar.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/43/Character_Dr._Ratio_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/theunitedorganizationtoonsheroes/images/c/c0/Character_Dr._Ratio_Splash_Art.webp/revision/latest?cb=20240910063754"
   },
   {
     "id": 43,
@@ -434,7 +434,7 @@ const characters = [
     "element": "Wind",
     "release": "2024-02-07T00:00:00.000Z",
     "introduction": "A Memokeeper of the Garden of Recollection.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/41/Character_Black_Swan_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fd/Character_Black_Swan_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20240220023547"
   },
   {
     "id": 44,
@@ -444,7 +444,7 @@ const characters = [
     "element": "Quantum",
     "release": "2024-02-29T00:00:00.000Z",
     "introduction": "A member of the Masked Fools. A dangerous maestro of theatrics.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/54/Character_Sparkle_Splash_Art.png"
+    "img": "https://images.mobilemeta.gg/starrail/images/characters/sparkle/sparkle_splash.png"
   },
   {
     "id": 45,
@@ -454,7 +454,7 @@ const characters = [
     "element": "Ice",
     "release": "2024-02-07T00:00:00.000Z",
     "introduction": "A hotel bellboy who is passionate about the Nameless.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/60/Character_Misha_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5c/Character_Misha_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20240206022717"
   },
   {
     "id": 46,
@@ -464,7 +464,7 @@ const characters = [
     "element": "Lightning",
     "release": "2024-03-27T00:00:00.000Z",
     "introduction": "A drifter claiming to be a Galaxy Ranger.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fc/Character_Acheron_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5c/Character_Misha_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20240206022717"
   },
   {
     "id": 47,
@@ -474,7 +474,7 @@ const characters = [
     "element": "Imaginary",
     "release": "2024-03-27T00:00:00.000Z",
     "introduction": "A senior manager in the IPC Strategic Investment Department.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/bb/Character_Aventurine_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a9/Character_Aventurine_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20240327104723"
   },
   {
     "id": 48,
@@ -484,7 +484,7 @@ const characters = [
     "element": "Fire",
     "release": "2024-03-27T00:00:00.000Z",
     "introduction": "A security officer of the Bloodhound Family at Penacony.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/13/Character_Gallagher_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/2d/Character_Gallagher_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20240327022011"
   },
   {
     "id": 49,
@@ -494,7 +494,7 @@ const characters = [
     "element": "Physical",
     "release": "2024-05-08T00:00:00.000Z",
     "introduction": "A Halovian singer born in Penacony. Sunday's sister.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/3d/Character_Robin_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/92/Character_Robin_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20240508021256"
   },
   {
     "id": 50,
@@ -504,7 +504,7 @@ const characters = [
     "element": "Physical",
     "release": "2024-05-08T00:00:00.000Z",
     "introduction": "A cyborg cowboy drifting among the stars. A Galaxy Ranger.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b9/Character_Boothill_Splash_Art.png"
+    "img": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/16/610e41525b45eddb8937419fe6fd4eab_9161087205181370400.png?x-oss-process=image%2Fformat%2Cwebp"
   },
   {
     "id": 51,
@@ -514,7 +514,7 @@ const characters = [
     "element": "Fire",
     "release": "2024-06-19T00:00:00.000Z",
     "introduction": "A member of the Stellaron Hunters. A girl clad in a mechanical armor.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/f4/Character_Firefly_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/38/Character_Firefly_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20241007220547"
   },
   {
     "id": 52,
@@ -524,7 +524,7 @@ const characters = [
     "element": "Quantum",
     "release": "2024-06-19T00:00:00.000Z",
     "introduction": "One of the Ten Stonehearts. A senior manager in the IPC.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/06/Character_Jade_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6d/Character_Jade_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20240706170539"
   },
   {
     "id": 53,
@@ -534,7 +534,7 @@ const characters = [
     "element": "Physical",
     "release": "2024-07-31T00:00:00.000Z",
     "introduction": "General Huaiyan's granddaughter. A sword hunter from the Xianzhou Zhuming.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c6/Character_Yunli_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/72/Character_Yunli_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20241007221656"
   },
   {
     "id": 54,
@@ -544,7 +544,7 @@ const characters = [
     "element": "Fire",
     "release": "2024-07-31T00:00:00.000Z",
     "introduction": "A Foxian healer from the Xianzhou Yaoqing. Counselor to General Feixiao.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/89/Character_Jiaoqiu_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/be/Character_Jiaoqiu_Splash_Art.png/revision/latest?cb=20240911023034"
   },
   {
     "id": 55,
@@ -554,7 +554,7 @@ const characters = [
     "element": "Imaginary",
     "release": "2024-07-31T00:00:00.000Z",
     "introduction": "March 7th after learning the ways of the Hunt from Yanqing.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/3d/Character_March_7th_The_Hunt_Splash_Art.png"
+    "img": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/07/23/87757046fcd7644b685c0d51e011f242_3662823375710304452.png?x-oss-process=image%2Fformat%2Cwebp"
   },
   {
     "id": 56,
@@ -564,7 +564,7 @@ const characters = [
     "element": "Wind",
     "release": "2024-09-10T00:00:00.000Z",
     "introduction": "General of the Xianzhou Yaoqing. One of the Seven Arbiter-Generals.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a9/Character_Feixiao_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/61/Character_Feixiao_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20241007220552"
   },
   {
     "id": 57,
@@ -574,7 +574,7 @@ const characters = [
     "element": "Lightning",
     "release": "2024-09-10T00:00:00.000Z",
     "introduction": "A Shadow Guard of the Xianzhou Yaoqing. Works under General Feixiao.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/44/Character_Moze_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/81/Character_Moze_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20240910181952"
   },
   {
     "id": 58,
@@ -584,7 +584,7 @@ const characters = [
     "element": "Fire",
     "release": "2024-09-25T00:00:00.000Z",
     "introduction": "Cauldron Master of the Xianzhou Luofu's Alchemy Commission.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5f/Character_Lingsha_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c1/Character_Lingsha_Splash_Art.png/revision/latest?cb=20241120224130"
   },
   {
     "id": 59,
@@ -594,7 +594,7 @@ const characters = [
     "element": "Imaginary",
     "release": "2024-10-23T00:00:00.000Z",
     "introduction": "A ninja and Galaxy Ranger who raps.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e3/Character_Rappa_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1c/Character_Rappa_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20241120154734"
   },
   {
     "id": 60,
@@ -604,7 +604,7 @@ const characters = [
     "element": "Imaginary",
     "release": "2024-12-04T00:00:00.000Z",
     "introduction": "Former head of the Oak Family in Penacony. Robin's brother.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7b/Character_Sunday_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/21/Character_Sunday_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20241224161538"
   },
   {
     "id": 61,
@@ -614,7 +614,7 @@ const characters = [
     "element": "Fire",
     "release": "2024-12-04T00:00:00.000Z",
     "introduction": "A mysterious woman with ties to the Xianzhou.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d0/Character_Fugue_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/4c/Character_Fugue_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20241122125941"
   },
   {
     "id": 62,
@@ -624,7 +624,7 @@ const characters = [
     "element": "Imaginary",
     "release": "2025-01-15T00:00:00.000Z",
     "introduction": "A warrior from the Chrysos Heirs faction.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a5/Character_Mydei_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/67/Character_Mydei_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20250725220512"
   },
   {
     "id": 63,
@@ -634,7 +634,7 @@ const characters = [
     "element": "Ice",
     "release": "2025-01-15T00:00:00.000Z",
     "introduction": "The Trailblazer wielding the power of Remembrance.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d1/Character_Trailblazer_Remembrance_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/15/Character_Trailblazer_%28F%29_Remembrance_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20250117063309"
   },
   {
     "id": 64,
@@ -644,7 +644,7 @@ const characters = [
     "element": "Lightning",
     "release": "2025-02-26T00:00:00.000Z",
     "introduction": "A member of the Chrysos Heirs.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c4/Character_Castorice_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/94/Character_Castorice_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20250409035111"
   },
   {
     "id": 65,
@@ -654,7 +654,7 @@ const characters = [
     "element": "Quantum",
     "release": "2025-03-12T00:00:00.000Z",
     "introduction": "A member of the Chrysos Heirs faction.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/81/Character_Tribbie_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/eb/Character_Tribbie_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20250309185506"
   },
   {
     "id": 66,
@@ -664,7 +664,7 @@ const characters = [
     "element": "Lightning",
     "release": "2025-01-15T00:00:00.000Z",
     "introduction": "A Goldweaver and one of the Chrysos Heirs.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b5/Character_Aglaea_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/81/Character_Aglaea_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20250117063425"
   },
   {
     "id": 67,
@@ -674,7 +674,7 @@ const characters = [
     "element": "Ice",
     "release": "2025-01-15T00:00:00.000Z",
     "introduction": "The true form of Herta, genius member of the Genius Society.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0f/Character_The_Herta_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/42/Character_The_Herta_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20250121214107"
   }
 ];
 
