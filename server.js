@@ -384,7 +384,7 @@ const characters = [
     "element": "Physical",
     "release": "2023-12-06T00:00:00.000Z",
     "introduction": "Judge of the Ten-Lords Commission. Xueyi's sister.",
-    "img": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/12/06/5308864/e3b9324aa51f9f45488ec684a9b0f2df_750711481636126279.png?x-oss-process=image%2Fformat%2Cwebp"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e8/Character_Hanya_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20231206232120"
   },
   {
     "id": 39,
@@ -394,7 +394,7 @@ const characters = [
     "element": "Wind",
     "release": "2023-11-15T00:00:00.000Z",
     "introduction": "A trainee Ten-Lords Commission Judge with a fear of ghosts.",
-    "img": "https://hsr.keqingmains.com/wp-content/uploads/2023/11/gacha_Huohuo.webp"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/82/Character_Huohuo_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20250604025217"
   },
   {
     "id": 40,
@@ -444,7 +444,7 @@ const characters = [
     "element": "Quantum",
     "release": "2024-02-29T00:00:00.000Z",
     "introduction": "A member of the Masked Fools. A dangerous maestro of theatrics.",
-    "img": "https://images.mobilemeta.gg/starrail/images/characters/sparkle/sparkle_splash.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/99/Character_Sparkle_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20240327022635"
   },
   {
     "id": 45,
