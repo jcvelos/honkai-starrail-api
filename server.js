@@ -314,7 +314,7 @@ const characters = [
     "element": "Imaginary",
     "release": "2023-08-30T00:00:00.000Z",
     "introduction": "Dan Heng's true form from his Vidyadhara lineage carries residual power.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/2c/Character_Dan_Heng_Imbibitor_Lunae_Splash_Art.png"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/2c/Character_Dan_Heng_•_Imbibitor_Lunae_Splash_Art.png/revision/latest?cb=20230818234313"
   },
   {
     "id": 32,
