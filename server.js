@@ -364,7 +364,7 @@ const characters = [
     "element": "Ice",
     "release": "2023-11-15T00:00:00.000Z",
     "introduction": "The former Sword Champion of the Luofu, and Jing Yuan's master.",
-    "img": "https://hsr.keqingmains.com/wp-content/uploads/2023/10/gacha_Jingliu.webp"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/97/Character_Jingliu_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20240525000314"
   },
   {
     "id": 37,
