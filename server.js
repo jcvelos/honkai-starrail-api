@@ -464,7 +464,7 @@ const characters = [
     "element": "Lightning",
     "release": "2024-03-27T00:00:00.000Z",
     "introduction": "A drifter claiming to be a Galaxy Ranger.",
-    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5c/Character_Misha_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20240206022717"
+    "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/78/Character_Acheron_Splash_Art.png/revision/latest/scale-to-width-down/1200?cb=20240327021325"
   },
   {
     "id": 47,
