@@ -39,7 +39,7 @@ GET /api/v1/character/id?id=<character_id>
 Example: `http://localhost:3000/api/v1/character/id?id=21`
 
 # Booking Management Subsystem Documentation
-### *Part of Tony's Apartel Hospitality Management System (HMS)*
+### *Part of Tony's Apartel Management System (MS)*
 
 This document provides the **Use Case and Actor Analysis** for the Booking Management Subsystem, following standard GitHub documentation formatting for clarity, readability, and project consistency.
 
@@ -50,7 +50,7 @@ This document provides the **Use Case and Actor Analysis** for the Booking Manag
 ## 1. System and Subsystem Identification
 
 - **Subsystem Name:** Booking Management System (BMS)  
-- **Full Name of Original System:** **Tony's Apartel Hospitality Management System (HMS)** (Derived from the Organization's Brief History)
+- **Full Name of Original System:** **Tony's Apartel Management System (MS)** (Derived from the Organization's Brief History)
 
 ---
 
