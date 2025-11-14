@@ -38,93 +38,69 @@ GET /api/v1/character/id?id=<character_id>
 ```
 Example: `http://localhost:3000/api/v1/character/id?id=21`
 
-# Booking Management System (Flask/SQLAlchemy)
+# 📑 Use Case and Actor Analysis for the Booking Management Subsystem
 
-A concise, web-based application for managing booking records, built with **Flask** and **Flask-SQLAlchemy**. It supports full **CRUD** (Create, Read, Update, Delete) functionality and generates **PDF reports**.
+## 1. System and Subsystem Identification
 
----
-
-## Features
-
-* **Booking Management:** Complete CRUD operations for customer bookings.
-* **Database:** Uses SQLite for persistence via Flask-SQLAlchemy, making setup simple.
-* **Reporting:** Generates and downloads **PDF reports** of all bookings using the powerful WeasyPrint library.
-* **Frontend:** Styled using **Bootstrap** for a responsive user interface.
-* **Automatic Reference:** Automatically generates a unique `BK-XXXXX` booking reference for each new record.
+* **Subsystem Name:** Booking Management System (BMS)
+* **Assumed Full System Name:** **Hospitality Management System (HMS)** or **Hotel Reservation and Operations System (HROS)**
 
 ---
 
-## 🛠️ Project Structure & Technology
+## 2. Actors and Their Implemented Use Cases
 
-### Key Technologies
+The primary actor for the implemented features is the system **Administrator** or **Staff Member** responsible for managing reservations.
 
-* **Backend Framework:** Flask (Python)
-* **Database ORM:** Flask-SQLAlchemy
-* **PDF Generation:** WeasyPrint
-* **Frontend Styling:** Bootstrap
-
-### Database Schema
-
-The core data is managed by the `Booking` model. The `sqlite:///bookings.db` file is created automatically on first run.
-
-| Column Name | Data Type | Description | Constraints |
-| :--- | :--- | :--- | :--- |
-| `idNum` | Integer | Primary Key | Primary Key |
-| `booking_reference` | String(20) | Unique Booking ID (e.g., `BK-00001`) | Unique, Not Null |
-| `guest_name` | String(100) | Guest's Full Name | Not Null |
-| `guest_email` | String(100) | Guest's Email Address | Not Null |
-| `check_in_date` | String(20) | Date of Check-in | Not Null |
-| `check_out_date` | String(20) | Date of Check-out | Not Null |
-| `room_type` | String(50) | Type of room booked | Not Null |
-| `number_of_guests` | Integer | Number of guests | Not Null |
-| `booking_status` | String(20) | Status (e.g., Confirmed, Cancelled) | Default: 'Pending' |
-| `total_amount` | Float | Total cost of the booking | Not Null |
-| `payment_status` | String(20) | Payment status | Default: 'Partial' |
+| Actor | Implemented Use Cases |
+| :--- | :--- |
+| **Booking Staff / Administrator** | 1. Manage Bookings (CRUD) |
+| | 2. Generate System Reports |
 
 ---
 
-## Available Endpoints (Routes)
+## 3. Use Case Details and Event Table
 
-The application provides the following functional routes:
+### Use Case 1: Manage Bookings (CRUD)
 
-| Route | Method | Description |
-| :--- | :--- | :--- |
-| `/` | `GET` | Displays the **index page** listing all current bookings. |
-| `/create` | `GET`, `POST` | Renders the **creation form** (`GET`) or **processes** a new booking record (`POST`). |
-| `/update/<int:idNum>` | `GET`, `POST` | Renders the **update form** (`GET`) for a specific booking or **commits** changes (`POST`). |
-| `/delete/<int:idNum>` | `POST` | **Deletes** a specific booking record. |
-| `/report/preview` | `GET` | Renders the booking list as an HTML preview, ready for PDF conversion. |
-| `/report/download` | `GET` | Generates the booking report and **downloads** it as a `booking_report.pdf` file. |
+**Goal:** To maintain an accurate and up-to-date record of customer reservations within the system.
 
----
+**Implemented Sub-functions:**
+* **Create Booking:** Adding a new reservation record.
+* **View Bookings:** Retrieving and listing all existing reservations.
+* **Update Booking:** Modifying details of an existing reservation.
+* **Delete Booking:** Removing a reservation record from the system.
 
-## Setup & Run
+#### Mini Events Table (Booking Management)
 
-### Prerequisites
+| Event | Actor | Route | Method | Data Changed |
+| :--- | :--- | :--- | :--- | :--- |
+| **New Booking Created** | Administrator | `/create` | `POST` | New `Booking` record is added to `bookings.db`. |
+| **Booking Updated** | Administrator | `/update/<int:idNum>` | `POST` | Existing `Booking` record fields (e.g., `status`, `amount`) are modified in `bookings.db`. |
+| **Booking Deleted** | Administrator | `/delete/<int:idNum>` | `POST` | The specific `Booking` record is permanently removed from `bookings.db`. |
+| **Bookings Queried** | Administrator | `/` | `GET` | Data is retrieved from `bookings.db` and displayed on the index page. |
 
-* Python 3.x
+### Use Case 2: Generate System Reports
 
-### Installation
+**Goal:** To produce printable documentation containing a summary of all booking records for auditing or operational review.
 
-1.  **Clone** the repository:
-    ```bash
-    git clone <repository-url>
-    cd <repository-name>
-    ```
-2.  **Install** the required Python packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3.  **Run** the application:
-    ```bash
-    python app.py
-    ```
+**Implemented Sub-functions:**
+* **Preview Report:** Viewing the report structure in a web browser.
+* **Download Report:** Generating and saving the report as a PDF file.
 
-The application will automatically create the `bookings.db` file and run on: `http://127.0.0.1:5000`.
+#### Mini Events Table (Report Generation)
+
+| Event | Actor | Route | Method | Resulting Artifact |
+| :--- | :--- | :--- | :--- | :--- |
+| **Report Previewed** | Administrator | `/report/preview` | `GET` | Booking data is rendered as HTML using `report.html` and `report_styles.css`. |
+| **Report Downloaded** | Administrator | `/report/download` | `GET` | A binary **PDF file** (`booking_report.pdf`) is generated from the HTML and downloaded. |
 
 ---
 
-## ⚙️ Customization
+## 4. Database Schema Context
 
-* **Database:** To change the database (e.g., to PostgreSQL or MySQL), modify the `SQLALCHEMY_DATABASE_URI` line in `app.py`. You will also need to install the corresponding database adapter (e.g., `psycopg2` for PostgreSQL).
-* **Styling:** Customize the look by editing the `report_styles.css` file for PDF reports or the main HTML templates (`index.html`, `create.html`, etc.) for the web interface.
+The `Booking` model facilitates all use cases by storing the necessary data, including:
+
+* **Reference:** `booking_reference` (for unique identification).
+* **Guest Info:** `guest_name`, `guest_email`.
+* **Dates:** `check_in_date`, `check_out_date`.
+* **Financials/Status:** `total_amount`, `booking_status`, `payment_status`.
