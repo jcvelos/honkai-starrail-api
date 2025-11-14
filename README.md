@@ -43,64 +43,44 @@ Example: `http://localhost:3000/api/v1/character/id?id=21`
 ## 1. System and Subsystem Identification
 
 * **Subsystem Name:** Booking Management System (BMS)
-* **Assumed Full System Name:** **Hospitality Management System (HMS)** or **Hotel Reservation and Operations System (HROS)**
+* **Full Name of Original System:** **Tony's Apartel Hospitality Management System (HMS)** (Derived from the Organization's Brief History)
 
 ---
 
-## 2. Actors and Their Implemented Use Cases
+## 2. Actors and Implemented Use Cases
 
-The primary actor for the implemented features is the system **Administrator** or **Staff Member** responsible for managing reservations.
+Based on the implemented **CRUD (Create, Read, Update, Delete)** and **Report Generation** functions in the provided subsystem code (`app.py`), the following use cases and actors are supported:
 
-| Actor | Implemented Use Cases |
-| :--- | :--- |
-| **Booking Staff / Administrator** | 1. Manage Bookings (CRUD) |
-| | 2. Generate System Reports |
+| Actor | Implemented Use Cases (from Context) | Related Module (from Context) |
+| :--- | :--- | :--- |
+| **Front Desk** | Create New Booking (M5) | Booking Management |
+| **Booking Staff / Administrator** | View Booking Details (Read) | Booking Management |
+| **Booking Staff / Administrator** | Perform Guest Check-in (Update - M7) / Check-out (Update - M9) | Guest Operations Management |
+| **Booking Staff / Administrator** | Process Booking Cancellation (Update/Delete) | Booking Management |
+| **Manager / Owner** | Generate System Reports | Reporting Management |
 
 ---
 
 ## 3. Use Case Details and Event Table
 
+The implemented subsystem primarily focuses on **Booking Management (CRUD)** and **Reporting**, covering the core routes in `app.py`.
+
 ### Use Case 1: Manage Bookings (CRUD)
 
-**Goal:** To maintain an accurate and up-to-date record of customer reservations within the system.
+**Goal:** To create, read, update, and delete customer reservation records.
 
-**Implemented Sub-functions:**
-* **Create Booking:** Adding a new reservation record.
-* **View Bookings:** Retrieving and listing all existing reservations.
-* **Update Booking:** Modifying details of an existing reservation.
-* **Delete Booking:** Removing a reservation record from the system.
-
-#### Mini Events Table (Booking Management)
-
-| Event | Actor | Route | Method | Data Changed |
+| Event | Actor | Route (Code) | Method | Data Entity & Change |
 | :--- | :--- | :--- | :--- | :--- |
-| **New Booking Created** | Administrator | `/create` | `POST` | New `Booking` record is added to `bookings.db`. |
-| **Booking Updated** | Administrator | `/update/<int:idNum>` | `POST` | Existing `Booking` record fields (e.g., `status`, `amount`) are modified in `bookings.db`. |
-| **Booking Deleted** | Administrator | `/delete/<int:idNum>` | `POST` | The specific `Booking` record is permanently removed from `bookings.db`. |
-| **Bookings Queried** | Administrator | `/` | `GET` | Data is retrieved from `bookings.db` and displayed on the index page. |
+| **New Booking Created** | Front Desk | `/create` | `POST` | `Booking` entity created with auto-generated reference (M5). |
+| **Booking Queried/Viewed** | Front Desk | `/` | `GET` | All `Booking` records are retrieved and displayed on the index page (Read). |
+| **Booking Updated** | Front Desk | `/update/<int:idNum>` | `POST` | Existing `Booking` record fields (e.g., `status`, `payment_status`) are modified (M7, M9). |
+| **Booking Deleted/Cancelled** | Front Desk | `/delete/<int:idNum>` | `POST` | The specific `Booking` record is permanently removed (Process Cancellation). |
 
 ### Use Case 2: Generate System Reports
 
-**Goal:** To produce printable documentation containing a summary of all booking records for auditing or operational review.
+**Goal:** To produce printable documentation containing a summary of all booking records.
 
-**Implemented Sub-functions:**
-* **Preview Report:** Viewing the report structure in a web browser.
-* **Download Report:** Generating and saving the report as a PDF file.
-
-#### Mini Events Table (Report Generation)
-
-| Event | Actor | Route | Method | Resulting Artifact |
+| Event | Actor | Route (Code) | Method | Resulting Artifact |
 | :--- | :--- | :--- | :--- | :--- |
-| **Report Previewed** | Administrator | `/report/preview` | `GET` | Booking data is rendered as HTML using `report.html` and `report_styles.css`. |
-| **Report Downloaded** | Administrator | `/report/download` | `GET` | A binary **PDF file** (`booking_report.pdf`) is generated from the HTML and downloaded. |
-
----
-
-## 4. Database Schema Context
-
-The `Booking` model facilitates all use cases by storing the necessary data, including:
-
-* **Reference:** `booking_reference` (for unique identification).
-* **Guest Info:** `guest_name`, `guest_email`.
-* **Dates:** `check_in_date`, `check_out_date`.
-* **Financials/Status:** `total_amount`, `booking_status`, `payment_status`.
+| **Report Previewed** | Manager / Owner | `/report/preview` | `GET` | Booking data is rendered as HTML, ready for print (M12). |
+| **Report Downloaded** | Manager / Owner | `/report/download` | `GET` | A binary **PDF file** (`booking_report.pdf`) is generated and downloaded (M12). |
