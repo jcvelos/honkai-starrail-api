@@ -38,12 +38,19 @@ GET /api/v1/character/id?id=<character_id>
 ```
 Example: `http://localhost:3000/api/v1/character/id?id=21`
 
-# 📑 Use Case and Actor Analysis for the Booking Management Subsystem
+# Booking Management Subsystem Documentation
+### *Part of Tony's Apartel Hospitality Management System (HMS)*
+
+This document provides the **Use Case and Actor Analysis** for the Booking Management Subsystem, following standard GitHub documentation formatting for clarity, readability, and project consistency.
+
+---
+
+# Use Case and Actor Analysis for the Booking Management Subsystem
 
 ## 1. System and Subsystem Identification
 
-* **Subsystem Name:** Booking Management System (BMS)
-* **Full Name of Original System:** **Tony's Apartel Hospitality Management System (HMS)** (Derived from the Organization's Brief History)
+- **Subsystem Name:** Booking Management System (BMS)  
+- **Full Name of Original System:** **Tony's Apartel Hospitality Management System (HMS)** (Derived from the Organization's Brief History)
 
 ---
 
@@ -65,7 +72,7 @@ Based on the implemented **CRUD (Create, Read, Update, Delete)** and **Report Ge
 
 The implemented subsystem primarily focuses on **Booking Management (CRUD)** and **Reporting**, covering the core routes in `app.py`.
 
-### Use Case 1: Manage Bookings (CRUD)
+### **Use Case 1: Manage Bookings (CRUD)**
 
 **Goal:** To create, read, update, and delete customer reservation records.
 
@@ -76,7 +83,9 @@ The implemented subsystem primarily focuses on **Booking Management (CRUD)** and
 | **Booking Updated** | Front Desk | `/update/<int:idNum>` | `POST` | Existing `Booking` record fields (e.g., `status`, `payment_status`) are modified (M7, M9). |
 | **Booking Deleted/Cancelled** | Front Desk | `/delete/<int:idNum>` | `POST` | The specific `Booking` record is permanently removed (Process Cancellation). |
 
-### Use Case 2: Generate System Reports
+---
+
+### **Use Case 2: Generate System Reports**
 
 **Goal:** To produce printable documentation containing a summary of all booking records.
 
